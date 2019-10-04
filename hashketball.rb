@@ -1,7 +1,7 @@
 require "pry"
 
 def game_hash
-  {:home => { team_name: 'Brooklyn Nets',
+  {:home => { team_name => 'Brooklyn Nets',
             colors => [black, white],
             players => [
               { player_name: 'Alan Anderson',
@@ -51,9 +51,9 @@ def game_hash
                 slam_dunks: 1 }
             ] },
   
-away: { team_name: 'Charlotte Hornets',
-            colors: %w[Turquoise Purple],
-            players: [
+away => { team_name => 'Charlotte Hornets',
+            colors => [Turquoise Purple],
+            players => [
               { player_name: 'Jeff Adrien',
                 number: 4,
                 shoe: 18,
