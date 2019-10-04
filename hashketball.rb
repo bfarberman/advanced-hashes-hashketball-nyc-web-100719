@@ -102,7 +102,6 @@ away: { team_name: 'Charlotte Hornets',
             ] }
             
   }
-  
 end  
 
 
