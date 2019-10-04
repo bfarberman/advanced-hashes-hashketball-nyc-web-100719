@@ -2,7 +2,7 @@ require "pry"
 
 def game_hash
   {home: { team_name: 'Brooklyn Nets',
-            colors: [black, white],
+            colors: %w[black, white],
             players: [
               { player_name: 'Alan Anderson',
                 number: 0,
